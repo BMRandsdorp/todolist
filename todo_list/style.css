@@ -1,0 +1,58 @@
+body{
+    display: flexbox;
+}
+
+
+h1 {
+    margin: 1.1em;
+    font-size: 2em;
+}
+
+#new-task{
+    width: 450px;
+    font-size: 1.2em;
+    margin-left: 2em;
+    float: left;
+}
+
+#add-task{
+    margin-left: 15px;
+    padding: 8px;
+    font-size: 1.2em;
+    background-color: #4CAF50 ; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+#task-list {
+    list-style: none;
+    width: 95%;
+}
+
+.to-do-item {
+    padding: .5em;
+    padding-left: 1em;
+    font-size: 1.5em;
+    max-width: 95%;
+    border: solid .5px black;
+}
+
+.delete-task{
+    margin-right: 15px;
+    float: right;
+    border: none;
+    background-color: white;
+    font-size: 1.2em;
+    color: red;
+    cursor: pointer;
+}
+
+.delete-task::after {
+    font: var(--fa-font-regular);
+    content: "\f2ed";
+  };
+
+.strike-through {
+    text-decoration: line-through ;
+}
